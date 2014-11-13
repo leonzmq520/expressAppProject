@@ -1,0 +1,8 @@
+###OSX###
+.DS_Store
+
+###WebStormIDE###
+.idea
+
+###nodeJSLocalDependencies###
+node_modules
