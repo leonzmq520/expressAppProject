@@ -8,7 +8,7 @@ router.get('/index', function(req, res) {
 
 /* GET/POST login page. */
 router.get('/login', function(req, res) {
-  if(req.session.isVisit != 0){
+  if(req.session.isVisit !== 0){
     console.log('you have been ' + req.session.isVisit + ' time to come to this page');
     req.session.isVisit++;
     res.render('index',{ title: 'Profile Page'});
