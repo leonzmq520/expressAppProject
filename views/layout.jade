@@ -4,7 +4,7 @@ html
     title= title
     //Bootstrap core JavaScript
     //Placed at the end of the document so the pages load faster
-    script(src='/components/jquery/jquery-1.11.0.min.js')
+    script(src='/components/jquery/jquery-1.11.1.min.js')
     script(src='/components/bootstrap/js/bootstrap.min.js')
     //Bootstrap core CSS
     link(rel='stylesheet', href='/components/bootstrap/css/bootstrap.min.css')
@@ -23,10 +23,10 @@ html
           .collapse.navbar-collapse
             ul.nav.navbar-nav
               li.active
-                a(href='#') Home
+                a(href='/index') Home
               li
-                a(href='/login') Login
+                a(href='/login') Sign in
               li
-                a(href='/contact') Contact
+                a(href='/logout') Sign out
 
   block content

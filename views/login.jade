@@ -3,13 +3,11 @@
 
 extends layout
 block content
-   <!-- h1= title -->
-   <!-- p Please #{title} -->
    .container
-      form.form-signin(role='form')
+      form.form-signin(action='/login',method='post')
          h2.form-signin-heading Please sign in
-         input.form-control(type='email', placeholder='Email address', required='', autofocus='')
-         input.form-control(type='password', placeholder='Password', required='')
+         input.form-control(id='username', name='username', type='email', placeholder='Email address', required='', autofocus='')
+         input.form-control(id='password', name='password', type='password', placeholder='Password', required='')
          label.checkbox
             input(type='checkbox', value='remember-me')
             |  Remember me
