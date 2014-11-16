@@ -13,4 +13,7 @@ lab1 OAECE
 + `npm install`
 + `npm install -g grunt-cli`
 + `npm install -g express-generator`
-	
+
+## Just run it
++ `node ./bin/www`
+
